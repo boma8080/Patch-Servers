@@ -1,1 +1,8 @@
 ---
+
+  tasks:
+  
+      - name: patch all servers
+        yum:
+      
+      
