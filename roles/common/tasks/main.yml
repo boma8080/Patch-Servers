@@ -1,8 +1,8 @@
 ---
-
-  tasks:
   
-      - name: patch all servers
+      - name: update the system
         yum:
+          name: "*"
+          state: latest
       
       
