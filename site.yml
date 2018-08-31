@@ -1,5 +1,6 @@
-- name: Playbook to update servers
-  hosts: webservers
-  become: true
+---
+  - name: Playbook to update servers
+    hosts: webservers
+    become: true
     roles:
      - common
